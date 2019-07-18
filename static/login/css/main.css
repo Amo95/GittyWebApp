@@ -229,7 +229,7 @@ h6 {
 .btn {
   display: inline-block;
   line-height: 40px;
-  padding: 0 33px;
+  padding: 0 41px;
   font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
   cursor: pointer;
   color: #fff;
@@ -238,6 +238,23 @@ h6 {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
   font-size: 18px;
+  /*margin-left: 20px;*/
+}
+
+.btn1 {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 50px;
+  font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  margin-left: 150px;
+  /*margin-bottom: 50px;*/
 }
 
 .btn--radius {
