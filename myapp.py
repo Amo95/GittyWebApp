@@ -10,7 +10,7 @@ def index():
 @app.route('/login', methods = ['GET', 'POST'])
 def login():
 	if request.method == 'POST':
-		return redirect(url_for('index'))
+		return redirect(url_for('index.html'))
 
 		# do stuff when the form is submitted
 
@@ -19,7 +19,7 @@ def login():
 
 
 	# show the form, it wasn't submitted
-	return render_template('login.html', )
+	return render_template('login.html')
 
 if __name__ == '__main__':
 	app.run(debug=True)
